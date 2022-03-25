@@ -1,13 +1,18 @@
-jQuery(document).ready(function() {
-  jQuery("h1").click(function() {
-    alert("This is a heading.");
-  });
+  // BUSINESS LOGIC
 
-  jQuery("p").click(function() {
-    alert("This is a paragraph.");
-  });
+//
+// UI LOGIC 
 
-  jQuery("img").click(function() {
-    alert("This is an image.");
+$(document).ready(function() {
+  $("form#name").submit(function(event) {
+    event.preventDefault();
+   // const flavor = $("input:radio[name=flavor]:checked").val();
+    const firstName = $("#name1").val();
+   // const result = (firstName + " " + lastName);
+    //const receiptText = " Thank you for your Purchase!"
+
+    $("#output").text(firstName);
+    $("#output").show();
+    $("#survey").hide();
   });
 });
