@@ -18,14 +18,32 @@ $(document).ready(function() {
     $("#ruby").show();
     $("#rust").hide();
     $("#python").hide();
+    $("#ideal-city").hide();
+    $("#time-of").hide();
+    $("#workey").hide();
+    $("#good-boss").hide();
+    $("#work-life").hide();
+    $("#start").hide();
     } else if (city + time + work + pace > 9) {
     $("#rust").show();
     $("#ruby").hide();
     $("#python").hide();
+    $("#ideal-city").hide();
+    $("#time-of").hide();
+    $("#workey").hide();
+    $("#good-boss").hide();
+    $("#work-life").hide();
+    $("#start").hide();
     } else {
     $("#python").show();
     $("#rust").hide();
     $("#ruby").hide();
+    $("#ideal-city").hide();
+    $("#time-of").hide();
+    $("#workey").hide();
+    $("#good-boss").hide();
+    $("#work-life").hide();
+    $("#start").hide();
     }
 
   });
