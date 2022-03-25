@@ -25,6 +25,9 @@ p {
 #python {
   display: none;
 } 
+#none {
+  display:none;
+}
 img {
   height: 650px;
   width: 650px;
@@ -36,8 +39,8 @@ img {
   border-radius: 50%;
   border-color: rgb(15, 10, 66);
   box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
-  position:fixed;
-  filter: blur(20px)
+  filter: blur(20px) grayscale();
+  
 }
 img:hover {
   transition: all 3s;

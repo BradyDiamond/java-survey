@@ -1,10 +1,3 @@
-  // BUSINESS LOGIC
-  // function sum(name , city , time , work ) {
-  //   return name + city + time + work ;
-  // }
-//
-// UI LOGIC 
-
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
     event.preventDefault();
@@ -14,7 +7,7 @@ $(document).ready(function() {
     const work = parseInt($("#work").val());
   
   
-    if (city + time + work + pace < 7 ) {
+    if (city + time + work + pace < 5 ) {
     $("#ruby").show();
     $("#rust").hide();
     $("#python").hide();
@@ -24,7 +17,7 @@ $(document).ready(function() {
     $("#good-boss").hide();
     $("#work-life").hide();
     $("#start").hide();
-    } else if (city + time + work + pace > 9) {
+    } else if (city + time + work + pace > 8) {
     $("#rust").show();
     $("#ruby").hide();
     $("#python").hide();
@@ -45,6 +38,5 @@ $(document).ready(function() {
     $("#work-life").hide();
     $("#start").hide();
     }
-
   });
 });
