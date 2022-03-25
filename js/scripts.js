@@ -15,14 +15,33 @@ $(document).ready(function() {
     const pace = parseInt($("#pace").val());
     const work = parseInt($("#work").val());
     const sum = (city + time + work + pace)
-    if (sum > 10) {
-    $("#rust").show();
-    }
-    else if (sum < 6) {
-    $("#Ruby").show();
-    }
-    else {
-    $("#python")  
+  
+    console.log ("number");
+    if (sum > 5) {
+    // if (city + time + work + pace > 5) {
+      $("#rust").show();
+    // } else if (city + time + work + pace > 5) {
+    // $("#Ruby").show();
+    // } else if (city + time + work + pace > 5) {
+    // $("#python").show(); 
     }
   });
 });
+
+
+
+
+
+
+
+
+
+
+// if (age > 21) {
+//   $('#drinks').show();
+// } else if (age === 21) {
+//   alert("Now don't go wild!");
+//   $('#drinks').show();
+// } else {
+//   $('#under-21').show();
+// }
