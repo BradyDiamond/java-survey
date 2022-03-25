@@ -1,7 +1,7 @@
 body{
   background-color: rgba(25, 112, 112, 0.527);
   color: rgb(18, 2, 235);
-
+  background-image: url("https://www.itl.cat/downwall/iiobhxw_matrix-code-animation-gif-free-animated-background-binary/");
 }
 
 h1 {
@@ -35,11 +35,13 @@ img{
   border-color: rgb(15, 10, 66);
   box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
   align-self: center;
+  float:right;
 }
 #city{
   height: 40px;
   width: 400px;
   text-align: center;
+  
 }
 #time{
   height: 40px;
@@ -60,6 +62,9 @@ img{
   height: 40px;
   width: 400px;
   text-align: center;
+}
+#ruby{
+  background-image: url("https://giphy.com/embed/quEsMOrr3hmQ8");
 }
 
       
