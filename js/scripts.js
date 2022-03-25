@@ -1,7 +1,7 @@
   // BUSINESS LOGIC
-  // function name() {
-  //   return firstName;
-  // }
+  function add(city, timeOf) {
+    return city + timeOf;
+  }
 //
 // UI LOGIC 
 
@@ -10,9 +10,13 @@ $(document).ready(function() {
     event.preventDefault();
     const name = $("#name1").val();
     console.log ("name")
-    const beverage = parseInt($("#beverage").val());
-    console.log ("value")
-    $("#output").text(name);
+    const city = parseInt($("#city").val());
+    const time = parseInt($("#time").val());
+    const pace = parseInt($("#pace").val());
+    const work = parseInt($("#work").val());
+    
+    console.log ("value");
+    $("#output").text(name + city + time + work +pace);
     $("#output").show();
    
 });
