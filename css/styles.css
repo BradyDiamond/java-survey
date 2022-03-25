@@ -1,7 +1,6 @@
 body{
   background-color: rgba(25, 112, 112, 0.527);
   color: rgb(18, 2, 235);
-  background-image: url("https://www.itl.cat/downwall/iiobhxw_matrix-code-animation-gif-free-animated-background-binary/");
 }
 
 h1 {
@@ -63,8 +62,10 @@ img{
   width: 400px;
   text-align: center;
 }
-#ruby{
-  background-image: url("https://giphy.com/embed/quEsMOrr3hmQ8");
+#survey{
+  text-align: center;
 }
+
+
 
       
