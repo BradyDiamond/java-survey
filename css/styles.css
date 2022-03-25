@@ -24,8 +24,8 @@ p {
   display: none;
 } 
 img{
-  height: 1000px;
-  width: 1000px;
+  height: 850px;
+  width: 850px;
   padding: 10px;
   border-width: 8px;
   border-style:ridge;
@@ -36,4 +36,30 @@ img{
   box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
   align-self: center;
 }
+#city{
+  height: 40px;
+  width: 400px;
+  text-align: center;
+}
+#time{
+  height: 40px;
+  width: 400px;
+  text-align: center;
+}
+#pace{
+  height: 40px;
+  width: 400px;
+  text-align: center;
+}
+#boss{
+  height: 40px;
+  width: 400px;
+  text-align: center;
+}
+#work{
+  height: 40px;
+  width: 400px;
+  text-align: center;
+}
+
       
