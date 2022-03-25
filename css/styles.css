@@ -1,6 +1,7 @@
 body{
-  background-color: rgba(127, 255, 212, 0.527);
-  color: rgb(156, 117, 17);
+  background-color: rgba(25, 112, 112, 0.527);
+  color: rgb(18, 2, 235);
+
 }
 
 h1 {
@@ -22,4 +23,17 @@ p {
 #python {
   display: none;
 } 
+img{
+  height: 1000px;
+  width: 1000px;
+  padding: 10px;
+  border-width: 8px;
+  border-style:ridge;
+  border-width: 10px;
+  border-radius: 10px;
+  border-radius: 50%;
+  border-color: rgb(15, 10, 66);
+  box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
+  align-self: center;
+}
       

@@ -14,12 +14,12 @@ $(document).ready(function() {
     const pace = parseInt($("#pace").val());
     const work = parseInt($("#work").val());
   
-    if (city + time + work + pace < 5 ) {
-    $("#ruby").show();
+    if (city + time + work + pace < 7 ) {
+    $("#ruby").toggle();
     } else if (city + time + work + pace > 9) {
-    $("#rust").show();
+    $("#rust").toggle();
     } else {
-    $("#python").show();
+    $("#python").toggle();
     }
   });
 });
