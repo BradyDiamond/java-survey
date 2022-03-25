@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
- 
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-  <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>template</title>
+<head> 
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/scripts.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <title>Language Finder</title>
 </head>
 <body>
   <form id="survey">
   <div class="container">
 
-    <h1>Whats coding language is right for you?!</h1>
+    <h1>Which coding language is right for you?!</h1>
     
     <form id="survey">
-      <!-- <div class="radio">
-        <label>
-          <input type="radio" name="operator" value="add" checked>
-          Front end
-        </label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="subtract">
-           Back end
-          </label>
-      </div> -->
 
       <div id="ideal-city">
         <label for="city">Where would you like to live?</label>
@@ -57,9 +48,9 @@
       <div id="good-boss">
         <label for="boss">what makes a good boss?</label>
           <select class="form-control" id="boss">
-            <option value="0">Fast paced</option>
-            <option value="0">Team orented</option>
-            <option value="0">Goal driven</option>
+            <option value="0">Detail orented</option>
+            <option value="0">Leads by example</option>
+            <option value="0">Layed back</option>
           </select>
         </div>
 
@@ -72,13 +63,15 @@
         </select>
       </div>    
       <button type="submit" class="btn-dark">Proceed</button>
-   
+      <button onClick="window.location.reload();">try again</button>
       <div id="ruby">
         <img src="img/Rubystone.jpg">
       </div>
+
       <div id="rust">
         <img src="img/fust.jpeg">
       </div>
+
       <div id="python">
         <img src="img/snake.jpg">
       </div>

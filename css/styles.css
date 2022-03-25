@@ -1,11 +1,14 @@
 body{
-  background-color: rgba(25, 112, 112, 0.527);
-  color: rgb(18, 2, 235);
+  background-image: url("https://assets-global.website-files.com/60f0542421b57f4ec3190525/61041a2dd459ea299fa7aaab_encryption.jpeg");
+  background-size: cover;
+  color: rgb(134, 195, 230);
+  font-size: x-large;
+  font-family: 'Righteous', cursive;
 }
 
 h1 {
   margin-top: .5in;
-  font-family: 'Bungee Shade', cursive;
+  
   text-align: center;
 }
 
@@ -22,9 +25,9 @@ p {
 #python {
   display: none;
 } 
-img{
-  height: 850px;
-  width: 850px;
+img {
+  height: 650px;
+  width: 650px;
   padding: 10px;
   border-width: 8px;
   border-style:ridge;
@@ -33,8 +36,12 @@ img{
   border-radius: 50%;
   border-color: rgb(15, 10, 66);
   box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
-  align-self: center;
   float:right;
+}
+img:hover {
+  transition: all 32s;
+  filter:none;
+  transform: scale(1.2) rotate(12deg);
 }
 #city{
   height: 40px;
@@ -62,9 +69,11 @@ img{
   width: 400px;
   text-align: center;
 }
-#survey{
+.form-control{
   text-align: center;
 }
+
+
 
 
 

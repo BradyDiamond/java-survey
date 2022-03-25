@@ -8,7 +8,6 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
     event.preventDefault();
-    const name = $("#name1").val();
     const city = parseInt($("#city").val());
     const time = parseInt($("#time").val());
     const pace = parseInt($("#pace").val());
