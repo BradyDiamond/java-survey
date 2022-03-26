@@ -1,8 +1,8 @@
  _SURVEY_
 
-#### By _**{Brady Diamond**_
+#### By _**Brady Diamond**_
 
-#### _{Brief description of application}_
+#### _A site to determine what code language you should learn_
 
 ## Technologies Used
 
