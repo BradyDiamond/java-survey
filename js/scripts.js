@@ -5,8 +5,7 @@ $(document).ready(function() {
     const time = parseInt($("#time").val());
     const pace = parseInt($("#pace").val());
     const work = parseInt($("#work").val());
-  
-  
+
     if (city + time + work + pace < 5 ) {
     $("#ruby").show();
     $("#again").show();
@@ -47,5 +46,6 @@ $(document).ready(function() {
     $("#work-life").hide();
     $("#start").hide();
     }
+    
   });
 });
