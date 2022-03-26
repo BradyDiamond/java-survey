@@ -11,6 +11,9 @@ h1 {
   margin-top: .5in;  
   text-align: center;
 }
+#closer{
+  display: none;
+}
 p {
   display: none;
   text-align: center;
