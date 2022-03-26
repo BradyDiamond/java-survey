@@ -7,11 +7,9 @@ body{
 }
 
 h1 {
-  margin-top: .5in;
-  
+  margin-top: .5in;  
   text-align: center;
 }
-
 p {
   display: none;
   text-align: center;

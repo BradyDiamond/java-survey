@@ -1,4 +1,4 @@
- _{Application Name}_
+ _SURVEY_
 
 #### By _**{Brady Diamond**_
 
