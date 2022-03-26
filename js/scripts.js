@@ -9,6 +9,7 @@ $(document).ready(function() {
   
     if (city + time + work + pace < 5 ) {
     $("#ruby").show();
+    $("#again").show();
     $("#rust").hide();
     $("#python").hide();
     $("#ideal-city").hide();
@@ -19,6 +20,7 @@ $(document).ready(function() {
     $("#start").hide();
     } else if (city + time + work + pace > 8) {
     $("#rust").show();
+    $("#again").show();
     $("#ruby").hide();
     $("#python").hide();
     $("#ideal-city").hide();
@@ -29,6 +31,7 @@ $(document).ready(function() {
     $("#start").hide();
     } else {
     $("#python").show();
+    $("#again").show();
     $("#rust").hide();
     $("#ruby").hide();
     $("#ideal-city").hide();
