@@ -13,11 +13,15 @@
 
 ## Description
 
-_A page to see what coding language you should use_
+_A website to find your programing language_
 
 ## Setup/Installation Requirements
 
 _this webite is availible through my profile located at https://github.com/BradyDiamond_
+
+_Using "git clone" add this repository to your desktop_
+_In the cloned folder open "index.html"_
+_select your answers and press proceed to see your language__
 
 ## Known Bugs
 

@@ -42,12 +42,11 @@ img {
   border-color: rgb(15, 10, 66);
   box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
   filter: blur(20px) grayscale();
-  
 }
 img:hover {
-  transition: all 3s;
+  transition: all 3.5s;
   filter:none;
-  transform: scale(1.2) rotate(12deg);
+  transform: scale(1.2) rotate(1440deg);
 }
 #city{
   height: 40px;
